@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+:root {
+  /* ================ Colors ================ */
+  --siteDarkColor: #353535;
+  --siteLightColor: #E9E7DC;
+  --sitePink: #EBBEBE;
+  --siteGreen: #96BFB0;
+  --siteYellow: #FFD482;
+
+  /* ================ Fonts ================ */
+  --defaultSerifFont: 'Libre Baskerville', serif;
+  --defaultSanSerifFont: 'Nunito';
+}

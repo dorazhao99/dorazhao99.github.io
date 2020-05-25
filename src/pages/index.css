@@ -1,0 +1,28 @@
+@import '../site.css';
+
+.root {
+  padding: 8vh 8vw 6vh 8vw;
+}
+
+.introWrapper {
+  display: flex;
+  align-content: center;
+}
+
+.introTitle {
+  font-family: var(--defaultSerifFont);
+  font-size: 48px;
+  margin: 12vh 0 4vh 0;
+}
+
+.introText {
+  font-family: var(--defaultSanSerifFont);
+  font-size: 24px;
+}
+
+.introImage {
+  margin: 12vh 0 0 0;
+  padding-left: 12vw;
+  width: 27%;
+  height: 27%;
+}

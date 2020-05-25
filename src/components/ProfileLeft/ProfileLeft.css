@@ -1,0 +1,33 @@
+@import '../../site.css';
+
+.container {
+    padding-bottom: 6vh;;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.home {
+  flex: 0 0 60%;
+  color: var(--siteDarkColor);
+  font-weight: bold;
+  font-size: 24px;
+  font-family: var(--defaultSanSerifFont);
+  text-decoration: none;
+}
+
+.link {
+  margin-left: 3.5vw;
+  font-size: 20px;
+  color: var(--siteDarkColor);
+  font-family: var(--defaultSanSerifFont);
+  text-decoration: none;
+}
+
+.link:hover,
+.home:hover {
+  color: var(--siteGreen);
+}
