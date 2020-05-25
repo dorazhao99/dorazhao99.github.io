@@ -1,5 +1,5 @@
 import React from "react"
-import { Topbar, ProfileLeft, } from '../components';
+import { Topbar, ProfileLeft, ProfileRight, } from '../components';
 
 import './index.css';
 import headshot from '../assets/headshot1.png';
@@ -10,6 +10,8 @@ import ferImage from '../assets/fer.png';
 export default function Home() {
   const expresso = "An mobile ordering web application built for Princeton’s only student-run coffee shop, the Coffee Club";
   const fer = "An intersectional audit conducted on commercial facial emotion recognition classifiers, looking at the effects of skin color and gender";
+  const driver = "An infinite-runner web game that simulates driving through Princeton’s campus while the player avoids obstacles on the road."
+
   return  (
     <div className = "root">
       <Topbar />
@@ -35,6 +37,11 @@ export default function Home() {
           color="yellow"
           description={expresso}
           image={expressoImage}/>
+        <ProfileRight
+          title="Driver's Ed"
+          color="pink"
+          description = {driver}
+          image={driversImage}/>
         <ProfileLeft
           title="FER Audit"
           color="blue"

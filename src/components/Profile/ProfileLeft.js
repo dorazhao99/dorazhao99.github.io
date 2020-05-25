@@ -13,7 +13,7 @@ const ProfileLeft = props => {
   const background = backgroundOptions[color]
 
   return (
-    <div className = "container">
+    <div className = "container-left">
       <div className = "imageWrapper">
         <div className = "box" style = {{ backgroundColor: background}}>
           <img className = "boxImage" src = {image} />

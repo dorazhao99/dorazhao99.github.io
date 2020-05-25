@@ -1,8 +1,10 @@
 @import '../../site.css';
 
-.container {
+.container-left {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 8vh;
 }
 
 .box {

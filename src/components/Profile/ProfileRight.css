@@ -1,0 +1,30 @@
+@import '../../site.css';
+
+.container-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 8vh;
+}
+
+.box {
+  width: 700px;
+  height: 500px;
+}
+
+.boxImage {
+  width: auto;
+  height: 400px;
+  display: absolute;
+  margin-left: 10%;
+  margin-top: 50px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.textWrapper-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 3vh 3vw 0 0;
+  text-align: right;
+}
