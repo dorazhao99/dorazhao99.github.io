@@ -7,6 +7,7 @@
 .introWrapper {
   display: flex;
   align-content: center;
+  margin-bottom: 12vh;
 }
 
 .introTitle {
@@ -25,4 +26,9 @@
   padding-left: 12vw;
   width: 27%;
   height: 27%;
+}
+
+.resume {
+  width: 50%;
+  height: auto;
 }

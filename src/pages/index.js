@@ -1,5 +1,5 @@
 import React from "react"
-import { Topbar } from '../components';
+import { Topbar, ProfileLeft, } from '../components';
 
 import './index.css';
 import headshot from '../assets/headshot1.png';
@@ -23,6 +23,16 @@ export default function Home() {
           </div>
         </div>
         <img className="introImage" src={headshot} />
+      </div>
+      <div className = "contentWrapper">
+        <ProfileLeft
+          title="Expresso"
+          color="yellow"
+          description="test"/>
+        <ProfileLeft
+          title="FER Audit"
+          color="blue"
+          description="test"/>
       </div>
     </div>
 

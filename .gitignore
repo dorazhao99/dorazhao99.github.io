@@ -3,6 +3,7 @@
 # dependencies
 node_modules
 .cache
+.jpg
 
 # testing
 coverage

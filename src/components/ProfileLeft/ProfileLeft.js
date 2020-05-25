@@ -1,20 +1,32 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'gatsby';
 import css from './ProfileLeft.css';
+
+const backgroundOptions = {
+  pink: "#EBBEBE",
+  blue: "#80BCDD",
+  yellow: "#FFD482",
+}
 
 const ProfileLeft = props => {
   const { title, color, description } = props;
+  debugger;
+  const background = backgroundOptions[color]
+
   return (
     <div className = "container">
       <div className = "imageWrapper">
-        Hi
+        <div className = "box" style = {{ backgroundColor: background}}>
+        </div>
       </div>
-      <div className = "textWrapper">
+      <div className = "textWrapper-profile">
         <p className = "title">
           {title}
         </p>
         <p className = "description">
           {description}
         </p>
+        <Link className = "link-profile"> READ MORE ⟶ </Link>
       </div>
     </div>
   );
