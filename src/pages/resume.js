@@ -1,15 +1,15 @@
 import React from "react"
-import { Topbar, ProfileLeft, } from '../components';
+import { Topbar, Resume} from '../components';
 
-import './index.css';
-import resume from "../assets/resume.jpg";
+import './resume.css';
+import resume from '../assets/resume.png';
 
-export default function Resume() {
+export default function ResumePage() {
   return  (
     <div className = "root">
       <Topbar />
       <div className = "resumeWrapper">
-          <img className = "resume" src= {resume} />
+        <img className = "resume" src= {resume} />
       </div>
     </div>
   )

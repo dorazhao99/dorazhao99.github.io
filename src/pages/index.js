@@ -3,8 +3,13 @@ import { Topbar, ProfileLeft, } from '../components';
 
 import './index.css';
 import headshot from '../assets/headshot1.png';
+import expressoImage from '../assets/expresso.png';
+import driversImage from '../assets/drivers.png';
+import ferImage from '../assets/fer.png';
 
 export default function Home() {
+  const expresso = "An mobile ordering web application built for Princeton’s only student-run coffee shop, the Coffee Club";
+  const fer = "An intersectional audit conducted on commercial facial emotion recognition classifiers, looking at the effects of skin color and gender";
   return  (
     <div className = "root">
       <Topbar />
@@ -28,11 +33,13 @@ export default function Home() {
         <ProfileLeft
           title="Expresso"
           color="yellow"
-          description="test"/>
+          description={expresso}
+          image={expressoImage}/>
         <ProfileLeft
           title="FER Audit"
           color="blue"
-          description="test"/>
+          description={fer}
+          image={ferImage}/>
       </div>
     </div>
 

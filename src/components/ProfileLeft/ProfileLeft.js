@@ -9,14 +9,14 @@ const backgroundOptions = {
 }
 
 const ProfileLeft = props => {
-  const { title, color, description } = props;
-  debugger;
+  const { title, color, description, image } = props;
   const background = backgroundOptions[color]
 
   return (
     <div className = "container">
       <div className = "imageWrapper">
         <div className = "box" style = {{ backgroundColor: background}}>
+          <img className = "boxImage" src = {image} />
         </div>
       </div>
       <div className = "textWrapper-profile">
