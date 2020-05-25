@@ -1,7 +1,7 @@
 import React from "react"
 import { Topbar, ProfileLeft, } from '../components';
 
-import './index.css';
+import './about.css';
 
 export default function About() {
   return  (
@@ -13,8 +13,9 @@ export default function About() {
         </div>
         <div className = "text-about">
           <p>  Hello! My name is Dora Zhao, and I am an undergraduate student at Princeton
-          University majoring in computer science with certificates in statistics & machine learning and Asian American studies.
-          I am currently interning at Roost Travel Company working on building
+          University majoring in computer science with certificates in statistics & machine learning
+          and Asian American studies. </p>
+          <p> I am currently interning at Roost Travel Company working on building
           their listing and marketplace platforms in addition to returning as a
           summer investment analyst banking analyst at
           Goldman Sachs in the Financial Institutions Group (FIG). </p>
@@ -23,10 +24,7 @@ export default function About() {
           racial biases in AI, and improving access to technology. I enjoy thinking and
           learning about the ways in which technology interacts with existing social
           systems. </p>
-          <p> While I am currently based around New York City, I grew up in the Greater Philadelphia
-          area. When I am not cheering on Philadelphia sports teams,
-          I also enjoy baking, watching sitcoms, and drinking coffee. </p>
-          <p> Feel free to reach out to colloborate or just say hello. </p>
+          <p> Feel free to reach out to colloborate or just say hello! </p>
         </div>
       </div>
     </div>

@@ -6,5 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: 'Dora Zhao',
+    description: 'Dora Zhao Personal Website'
+  }
   plugins: [],
 }
