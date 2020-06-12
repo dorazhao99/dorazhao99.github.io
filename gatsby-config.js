@@ -10,5 +10,5 @@ module.exports = {
     title: 'Dora Zhao',
     description: 'Dora Zhao Personal Website'
   }
-  plugins: [],
+
 }

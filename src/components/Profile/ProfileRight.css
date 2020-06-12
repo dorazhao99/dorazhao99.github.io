@@ -24,7 +24,7 @@
 .textWrapper-right{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  margin: 3vh 3vw 0 0;
-  text-align: right;
+  align-items: flex-start;
+  margin: 3vh 0 0 6vw;
+  text-align: left;
 }

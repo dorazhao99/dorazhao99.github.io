@@ -9,7 +9,7 @@ const backgroundOptions = {
 }
 
 const ProfileRight = props => {
-  const { title, color, description, image } = props;
+  const { title, color, link, description, image } = props;
   const background = backgroundOptions[color]
 
   return (
@@ -21,7 +21,7 @@ const ProfileRight = props => {
         <p className = "description">
           {description}
         </p>
-        <Link className = "link-profile"> READ MORE ⟶ </Link>
+        <a href={link} target="_blank" className = "link-profile"> SEE MORE ⟶ </a>
       </div>
       <div className = "imageWrapper">
         <div className = "box" style = {{ backgroundColor: background}}>

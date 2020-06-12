@@ -2,7 +2,7 @@ import React from "react"
 import { Topbar, ProfileLeft, ProfileRight, } from '../components';
 
 import './index.css';
-import headshot from '../assets/headshot1.png';
+
 import expressoImage from '../assets/expresso.png';
 import driversImage from '../assets/drivers.png';
 import ferImage from '../assets/fer.png';
@@ -29,22 +29,24 @@ export default function Home() {
             and <strong> human-computer interaction</strong>. </p>
           </div>
         </div>
-        <img className="introImage" src={headshot} />
       </div>
       <div className = "contentWrapper">
         <ProfileLeft
           title="Expresso"
           color="yellow"
+          link="http://coffeeclub.princeton.edu/landing"
           description={expresso}
           image={expressoImage}/>
         <ProfileRight
           title="Driver's Ed"
           color="pink"
+          link="https://karenying.github.io/drivers-ed/"
           description = {driver}
           image={driversImage}/>
         <ProfileLeft
           title="FER Audit"
           color="blue"
+          link = "https://github.com/dorazhao99/emotiondetectionaudit"
           description={fer}
           image={ferImage}/>
       </div>
