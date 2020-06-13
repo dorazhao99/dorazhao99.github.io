@@ -25,6 +25,23 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 3vh 0 0 6vw;
+  margin: 3vh 0 0 3vw;
   text-align: left;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .container-right {
+    flex-direction: column-reverse;
+  }
+
+  .box {
+    width: 420px;
+    height: 300px;
+  }
+
+  .boxImage {
+    height: 240px;
+    margin-top: 25px;
+  }
 }

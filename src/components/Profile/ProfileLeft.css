@@ -53,3 +53,9 @@
   cursor: pointer;
   color: var(--siteGreen);
 }
+
+@media screen and (max-width: 1000px) {
+  .container-left {
+    flex-direction: column;
+  }
+}

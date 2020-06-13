@@ -1,7 +1,7 @@
 @import '../../site.css';
 
 .container {
-    padding-bottom: 6vh;;
+  padding-bottom: 6vh;
 }
 
 .textWrapper {
@@ -11,7 +11,7 @@
 }
 
 .home {
-  flex: 0 0 55%;
+  flex: 0 0 75%;
   color: var(--siteDarkColor);
   font-weight: bold;
   font-size: 24px;
@@ -30,4 +30,16 @@
 .link:hover,
 .home:hover {
   color: var(--siteGreen);
+}
+
+@media screen and (max-width: 1000px) {
+  .home {
+    flex: 0 0 65%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .home {
+    flex: 0 0 55%;
+  }
 }

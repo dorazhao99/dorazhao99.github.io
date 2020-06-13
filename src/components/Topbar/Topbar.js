@@ -13,11 +13,8 @@ class Topbar extends Component {
           <Link to="/" className = "link">
             Select Work
           </Link>
-          <Link to="/resume/" className = "link">
-            Resume
-          </Link>
           <Link to="/about/" className = "link">
-            About + Contact
+            About
           </Link>
         </div>
       </div>

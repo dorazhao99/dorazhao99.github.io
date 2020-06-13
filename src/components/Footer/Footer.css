@@ -1,0 +1,11 @@
+@import '../../site.css';
+
+.footer-container {
+  margin-top: 12vh;
+}
+
+.copyright {
+  color: var(--siteDarkColor);
+  font-family: var(--defaultSerifFont);
+  font-size: 12px;
+}

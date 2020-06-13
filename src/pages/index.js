@@ -1,5 +1,10 @@
 import React from "react"
-import { Topbar, ProfileLeft, ProfileRight, } from '../components';
+import {
+  Topbar,
+  ProfileLeft,
+  ProfileRight,
+  Footer,
+} from '../components';
 
 import './index.css';
 
@@ -50,6 +55,7 @@ export default function Home() {
           description={fer}
           image={ferImage}/>
       </div>
+      <Footer/>
     </div>
 
   )

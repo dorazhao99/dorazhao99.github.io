@@ -1,7 +1,8 @@
 @import '../site.css';
 
 .root {
-  padding: 8vh 8vw 6vh 8vw;
+  padding: 8vh 8vw 8vh 8vw;
+  min-width: 500px;
 }
 
 .introWrapper {
