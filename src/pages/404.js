@@ -8,7 +8,7 @@ export default function Default404() {
       <Topbar/>
       <div className="content-container">
         <div className="found-wrapper">
-          <h1 className="found-title"> 4😮4!</h1>
+          <h1 className="found-title"> 4<span>😮</span>4!</h1>
           <h3 className="found-text">
             Oh no, it looks like the page you are looking for cannot be found.
           </h3>

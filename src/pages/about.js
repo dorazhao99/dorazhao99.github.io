@@ -1,5 +1,5 @@
 import React from "react"
-import { Topbar, ProfileLeft, Footer, } from '../components';
+import { Topbar, Footer, } from '../components';
 
 import headshot from '../assets/dorothyz.jpeg';
 import {
@@ -30,25 +30,25 @@ export default function About() {
           I am interested in fairness in machine learning, mitigating
           racial biases in AI, and improving access to technology. I enjoy thinking and
           learning about the ways in which technology interacts with existing social
-          systems. </p> 
+          systems. </p>
           <p> Feel free to reach out to colloborate or just say hello! </p>
           <div className="button-wrapper">
-            <a className="button-link" href = "mailto: dorothyzhao@princeton.edu">
+            <a className="button-link" rel="noreferrer" href = "mailto: dorothyzhao@princeton.edu">
               <AiOutlineMail size={32} alt="Email"/>
             </a>
-            <a className="button-link" href="https://www.linkedin.com/in/dorothy-z/" target="_blank">
+            <a className="button-link" rel="noreferrer" href="https://www.linkedin.com/in/dorothy-z/" target="_blank">
               <AiOutlineLinkedin size={32} alt="LinkedIn"/>
             </a>
-            <a className="button-link" href="https://github.com/dorazhao99" target="_blank">
+            <a className="button-link" rel="noreferrer" href="https://github.com/dorazhao99" target="_blank">
               <AiOutlineGithub size={32}/>
             </a>
-            <a className="button-link" href="https://www.instagram.com/doorughzow/?hl=en" target="_blank">
+            <a className="button-link" rel="noreferrer" href="https://www.instagram.com/doorughzow/?hl=en" target="_blank">
               <AiOutlineInstagram size={32} alt="Instagram"/>
             </a>
           </div>
         </div>
         <div>
-          <img className="introImage" src={headshot} />
+          <img className="introImage" src={headshot} alt="Headshot"/>
         </div>
       </div>
       <Footer/>

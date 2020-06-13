@@ -21,7 +21,7 @@ const ProfileRight = props => {
         <p className = "description">
           {description}
         </p>
-        <a href={link} target="_blank" className = "link-profile"> SEE MORE ⟶ </a>
+        <a href={link} target="_blank" rel="noreferrer" className = "link-profile"> SEE MORE ⟶ </a>
       </div>
       <div className = "imageWrapper">
         <div className = "box" style = {{ backgroundColor: background}}>
