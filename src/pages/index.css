@@ -1,0 +1,56 @@
+@import '../site.css';
+
+.root {
+  padding: 8vh 8vw 0 8vw;
+  min-width: 500px;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.introWrapper {
+  display: flex;
+  align-content: center;
+}
+
+.introTitle {
+  font-family: var(--defaultSerifFont);
+  font-size: 36px;
+  margin: 12vh 0 4vh 0;
+}
+
+.introText {
+  font-family: var(--defaultSanSerifFont);
+  font-size: 20px;
+}
+
+.introImage {
+  width: 50%;
+  border-radius: 50%;
+  height: auto;
+  margin: 12vh 0 4vh 0;
+}
+
+.imgWrapper {
+  text-align: center;
+  display: block;
+}
+
+.button-wrapper {
+  margin-top: 4vh;
+}
+
+.button-link {
+  color: var(--siteDarkColor);
+  margin: 0 18px 0 0;
+}
+
+.button-link:hover {
+  cursor: pointer;
+  color: var(--siteGreen);
+}
+
+@media screen and (max-width: 900px) {
+  .introImage {
+    display: none;
+  }
+}

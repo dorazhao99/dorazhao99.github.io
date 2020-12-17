@@ -1,0 +1,56 @@
+@import '../site.css';
+
+.root {
+  padding: 8vh 8vw 0 8vw;
+  min-width: 500px;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.container-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 65vh;
+}
+
+.introImage {
+  width: 70%;
+  height: auto;
+  margin: 0 5vw 0 7vw;
+}
+
+.title-about {
+  font-family: var(--defaultSanSerifFont);
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  color: var(--siteGreen);
+}
+
+.text-about {
+  font-family: var(--defaultSanSerifFont);
+  font-size: 18px;
+  max-width: 1400px;
+}
+
+.button-wrapper {
+  margin-top: 4vh;
+}
+
+.button-link {
+  color: var(--siteDarkColor);
+  margin: 0 18px 0 0;
+}
+
+.button-link:hover {
+  cursor: pointer;
+  color: var(--siteGreen);
+}
+
+@media screen and (max-width: 900px) {
+  .introImage {
+    display: none;
+  }
+}
