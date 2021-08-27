@@ -27,11 +27,11 @@ const LandingPage = ({ data, location }) => {
           <div>
             <h2> Hi 👋, I'm Dora Zhao. </h2>
             <body>
-              I am an incoming Master's student at Princeton University, studying
+              I am a Master's student at Princeton University, studying
               computer science. I am interested in machine learning fairness, AI ethics, and
               human-computer interaction. Currently, I am working in the <a href="http://visualai.princeton.edu/" target="_blank">
               Princeton Visual AI Lab</a>, advised by <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Professor Olga Russakovsky</a>.
-              This summer, I am interning at Sony AI in the AI Ethics group.
+              This past summer, I interned at Sony AI in the AI Ethics group.
             </body>
           </div>
         </div>
@@ -51,11 +51,38 @@ const LandingPage = ({ data, location }) => {
       </div>
       <div>
         <h3> news </h3>
-        Coming soon.
+        <ul>
+          <li><strong>[08/21]</strong> Started my Master's program at Princeton University!</li>
+          <li><strong>[08/21]</strong> Finished my summer internship at Sony AI on the AI Ethics team, where I worked on generating synthetic data with GANs for reducing bias in object classification tasks.</li>
+          <li><strong>[07/21]</strong> One paper accepted to ICCV 2021: <a href="https://arxiv.org/abs/2106.08503" target="_blank"> Understanding and Evaluating Racial Biases in Image Captioning </a></li>
+        </ul>
       </div>
       <div>
         <h3> research </h3>
-        Coming soon.
+        <div>
+        <ul>
+          <li><a href="https://arxiv.org/abs/2106.08503" target="_blank">Understanding and Evaluating Racial Biases in Image Captioning</a> <br/>
+            <strong>Dora Zhao</strong>, Angelina Wang, Olga Russakovsky <br/>
+            <strong><i>ICCV 2021</i></strong>
+          </li>
+          <li><a href="https://arxiv.org/abs/2004.07999" target="_blank">REVISE: A Tool for Measuring and Mitigating Bias in Visual Datasets</a> <br/>
+            Angelina Wang, Alexander Liu, Ryan Zhang, Anat Kleiman, Leslie Kim, <strong>Dora Zhao</strong>, Iroha Shirai, Arvind Narayanan, Olga Russakovsky <br/>
+            <strong><i>Extended version of ECCV 2020 paper</i></strong>
+          </li>
+
+        </ul>
+        </div>
+      </div>
+      <div>
+        <h3> teaching </h3>
+        <div>
+          <ul>
+            <li> COS 333: Advanced Programming Techniques, Fall 2021 </li>
+            <li> COS IW 07: Computer Vision for Social Good, Spring 2021 </li>
+            <li> COS IW 08: Fairness of Visual Recognition, Spring 2021 </li>
+          </ul>
+        </div>
+
       </div>
     </Layout>
   )
