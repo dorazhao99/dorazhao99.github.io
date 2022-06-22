@@ -52,6 +52,8 @@ const LandingPage = ({ data, location }) => {
       <div>
         <h3> news </h3>
         <ul>
+          <li><strong>[05/22]</strong> Finished my Master's program at Princeton University!</li>
+          <li><strong>[05/22]</strong> Defended my thesis on teenage perceptions of privacy on visual social media platforms, advised by Professor André Monroy-Hernández.</li>
           <li><strong>[08/21]</strong> Started my Master's program at Princeton University!</li>
           <li><strong>[08/21]</strong> Finished my summer internship at Sony AI on the AI Ethics team, where I worked on generating synthetic data with GANs for reducing bias in object classification tasks.</li>
           <li><strong>[07/21]</strong> One paper accepted to ICCV 2021: <a href="https://arxiv.org/abs/2106.08503" target="_blank"> Understanding and Evaluating Racial Biases in Image Captioning </a></li>
@@ -61,13 +63,21 @@ const LandingPage = ({ data, location }) => {
         <h3> research </h3>
         <div>
         <ul>
+          <li><a href="https://arxiv.org/abs/2206.09191" target="_blank">Gender Artifacts in Visual Datasets</a> <br/>
+            Nicole Meister*, <strong>Dora Zhao*</strong>, Angelina Wang, Vikram V. Ramaswamy, Ruth Fong, Olga Russakovsky <br/>
+            <strong><i>arXiv 2022</i></strong>
+          </li> 
+          <li><a href="https://dl.acm.org/doi/abs/10.1145/3491101.3516382" target="_blank">Anti-Racist HCI: Notes on an Emerging Critical Technical Practice</a> <br/>
+            One of nineteen authors <br/>
+            <strong><i>alt.CHI 2022</i></strong>
+          </li>     
+          <li><a href="https://arxiv.org/abs/2004.07999" target="_blank">REVISE: A Tool for Measuring and Mitigating Bias in Visual Datasets</a> <br/>
+            Angelina Wang, Alexander Liu, Ryan Zhang, Anat Kleiman, Leslie Kim, <strong>Dora Zhao</strong>, Iroha Shirai, Arvind Narayanan, Olga Russakovsky <br/>
+            <strong><i>IJCV 2022</i></strong>
+          </li>
           <li><a href="https://arxiv.org/abs/2106.08503" target="_blank">Understanding and Evaluating Racial Biases in Image Captioning</a> <br/>
             <strong>Dora Zhao</strong>, Angelina Wang, Olga Russakovsky <br/>
             <strong><i>ICCV 2021</i></strong>
-          </li>
-          <li><a href="https://arxiv.org/abs/2004.07999" target="_blank">REVISE: A Tool for Measuring and Mitigating Bias in Visual Datasets</a> <br/>
-            Angelina Wang, Alexander Liu, Ryan Zhang, Anat Kleiman, Leslie Kim, <strong>Dora Zhao</strong>, Iroha Shirai, Arvind Narayanan, Olga Russakovsky <br/>
-            <strong><i>Extended version of ECCV 2020 paper</i></strong>
           </li>
 
         </ul>
@@ -77,6 +87,7 @@ const LandingPage = ({ data, location }) => {
         <h3> teaching </h3>
         <div>
           <ul>
+            <li> COS 333: Advanced Programming Techniques, Spring 2022 </li>
             <li> COS 333: Advanced Programming Techniques, Fall 2021 </li>
             <li> COS IW 07: Computer Vision for Social Good, Spring 2021 </li>
             <li> COS IW 08: Fairness of Visual Recognition, Spring 2021 </li>
