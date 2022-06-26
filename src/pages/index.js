@@ -27,24 +27,24 @@ const LandingPage = ({ data, location }) => {
           <div>
             <h2> Hi 👋, I'm Dora Zhao. </h2>
             <body>
-              I am a Master's student at Princeton University, studying
-              computer science. I am interested in machine learning fairness, AI ethics, and
-              human-computer interaction. Currently, I am working in the <a href="http://visualai.princeton.edu/" target="_blank">
+              I am an incoming AI Engineer at Sony AI on the AI Ethics team. I am interested in <strong>machine learning fairness</strong> and <strong>human-computer interaction</strong>. 
+              Previously, I worked in the <a href="http://visualai.princeton.edu/" target="_blank">
               Princeton Visual AI Lab</a>, advised by <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Professor Olga Russakovsky</a>.
-              This past summer, I interned at Sony AI in the AI Ethics group.
             </body>
           </div>
         </div>
         <body>
-          I received my undergraduate degree from Princeton University, where I majored
+          Previously, I received my undergraduate degree from Princeton University, where I majored
           in computer science with minors in Asian American Studies and statistics + machine learning.
-          Previously, I have worked in the Stigma and Social Perception Lab led by Professors <a href="https://psych.princeton.edu/person/nicole-shelton" target="_blank">J. Nicole Shelton</a> and <a href="https://psych.princeton.edu/person/stacey-sinclair" target="_blank">Stacey Sinclair</a>,
-          conducted <a href="https://ourpublicservice.org/our-work/time-for-a-change/" target="_blank">research</a> on the federal government,
-          and interned at a travel start-up.
+          I also received my Master of Science in Engineering from Princeton as well where I worked with <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Professor Olga Russakovsky</a> and <a href="https://www.andresmh.com/" target="_blank">Professor Andrés Monroy-Hernández</a>. 
+        </body>
+        <br/>
+        <body>
+          My pronouns are she/her. In my free time, I enjoy watching soccer (go Spurs!), working out, and baking.
         </body>
         <br/>
         <div>
-          <a href="mailto:dorothyz@princeton.edu">[email]</a>
+          <a href="mailto:dorazhao99@gmail.com">[email]</a>
           &emsp; <a href="https://github.com/dorazhao99/" target="_blank">[github]</a>
           &emsp; <a href="https://www.linkedin.com/in/dorothy-z/" target="_blank">[linkedin]</a>
         </div>
@@ -52,11 +52,13 @@ const LandingPage = ({ data, location }) => {
       <div>
         <h3> news </h3>
         <ul>
-          <li><strong>[05/22]</strong> Finished my Master's program at Princeton University!</li>
-          <li><strong>[05/22]</strong> Defended my thesis on teenage perceptions of privacy on visual social media platforms, advised by Professor André Monroy-Hernández.</li>
-          <li><strong>[08/21]</strong> Started my Master's program at Princeton University!</li>
-          <li><strong>[08/21]</strong> Finished my summer internship at Sony AI on the AI Ethics team, where I worked on generating synthetic data with GANs for reducing bias in object classification tasks.</li>
-          <li><strong>[07/21]</strong> One paper accepted to ICCV 2021: <a href="https://arxiv.org/abs/2106.08503" target="_blank"> Understanding and Evaluating Racial Biases in Image Captioning </a></li>
+          <li className="news"><strong>[06/22]</strong> Attended CVPR 2022 and presented a poster at the WiCV workshop.</li>
+          <li className="news"><strong>[06/22]</strong> New preprint available: <a href="https://arxiv.org/abs/2206.09191" target="_blank"> Gender Artifacts in Visual Datasets</a>. </li>
+          <li className="news"><strong>[05/22]</strong> Finished my Master's program at Princeton University!</li>
+          <li className="news"><strong>[05/22]</strong> Defended my thesis on teenage perceptions of privacy on visual social media platforms, advised by Professor Andrés Monroy-Hernández.</li>
+          <li className="news"><strong>[08/21]</strong> Started my Master's program at Princeton University!</li>
+          <li className="news"><strong>[08/21]</strong> Finished my summer internship at Sony AI on the AI Ethics team, where I worked on generating synthetic data with GANs for reducing bias in object classification tasks.</li>
+          <li className="news"><strong>[07/21]</strong> One paper accepted to ICCV 2021: <a href="https://arxiv.org/abs/2106.08503" target="_blank"> Understanding and Evaluating Racial Biases in Image Captioning </a></li>
         </ul>
       </div>
       <div>
