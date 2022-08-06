@@ -53,7 +53,8 @@ const LandingPage = ({ data, location }) => {
       <div>
         <h3> news </h3>
         <ul>
-          <li className="news"><strong>[07/21]</strong> One paper accepted to CSCW 2022: <a href="https://arxiv.org/abs/2208.02796" target="_blank"> Understanding Teenage Perceptions and Configurations of Privacy on Instagram </a></li>
+          <li className="news"><strong>[07/22]</strong> One paper accepted to CSCW 2022: <a href="https://arxiv.org/abs/2208.02796" target="_blank"> Understanding Teenage Perceptions and Configurations of Privacy on Instagram </a></li>
+          <li className="news"><strong>[07/22]</strong> Started at Sony AI as an AI Engineer!</li>
           <li className="news"><strong>[06/22]</strong> Attended CVPR 2022 and presented a poster at the WiCV workshop.</li>
           <li className="news"><strong>[06/22]</strong> New preprint available: <a href="https://arxiv.org/abs/2206.09191" target="_blank"> Gender Artifacts in Visual Datasets</a>. </li>
           <li className="news"><strong>[05/22]</strong> Finished my Master's program at Princeton University!</li>
