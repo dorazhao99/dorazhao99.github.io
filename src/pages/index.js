@@ -27,7 +27,7 @@ const LandingPage = ({ data, location }) => {
           <div>
             <h2> Hi 👋, I'm Dora Zhao. </h2>
             <body>
-              I am an incoming AI Engineer at Sony AI on the AI Ethics team. I am interested in <strong>machine learning fairness</strong> and <strong>human-computer interaction</strong>. 
+              I am an AI Engineer at Sony AI on the AI Ethics team. I am interested in <strong>machine learning fairness</strong> and <strong>human-computer interaction</strong>. 
               Previously, I worked in the <a href="http://visualai.princeton.edu/" target="_blank">
               Princeton Visual AI Lab</a>, advised by <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Professor Olga Russakovsky</a>.
             </body>
@@ -46,12 +46,14 @@ const LandingPage = ({ data, location }) => {
         <div>
           <a href="mailto:dorazhao99@gmail.com">[email]</a>
           &emsp; <a href="https://github.com/dorazhao99/" target="_blank">[github]</a>
+          &emsp; <a href="https://twitter.com/dorazhao9" target="_blank">[twitter]</a>
           &emsp; <a href="https://www.linkedin.com/in/dorothy-z/" target="_blank">[linkedin]</a>
         </div>
       </div>
       <div>
         <h3> news </h3>
         <ul>
+          <li className="news"><strong>[07/21]</strong> One paper accepted to CSCW 2022: <a href="https://arxiv.org/abs/2208.02796" target="_blank"> Understanding Teenage Perceptions and Configurations of Privacy on Instagram </a></li>
           <li className="news"><strong>[06/22]</strong> Attended CVPR 2022 and presented a poster at the WiCV workshop.</li>
           <li className="news"><strong>[06/22]</strong> New preprint available: <a href="https://arxiv.org/abs/2206.09191" target="_blank"> Gender Artifacts in Visual Datasets</a>. </li>
           <li className="news"><strong>[05/22]</strong> Finished my Master's program at Princeton University!</li>
@@ -65,6 +67,10 @@ const LandingPage = ({ data, location }) => {
         <h3> research </h3>
         <div>
         <ul>
+          <li><a href="https://arxiv.org/abs/2208.02796" target="_blank">Understanding Teenage Perceptions and Configurations of Privacy on Instagram</a> <br/>
+            <strong>Dora Zhao</strong>, Mikako Inaba, Andrés Monroy-Hernández<br/>
+            <strong><i>CSCW 2022</i></strong>
+          </li> 
           <li><a href="https://arxiv.org/abs/2206.09191" target="_blank">Gender Artifacts in Visual Datasets</a> <br/>
             Nicole Meister*, <strong>Dora Zhao*</strong>, Angelina Wang, Vikram V. Ramaswamy, Ruth Fong, Olga Russakovsky <br/>
             <strong><i>arXiv 2022</i></strong>
@@ -81,7 +87,7 @@ const LandingPage = ({ data, location }) => {
             <strong>Dora Zhao</strong>, Angelina Wang, Olga Russakovsky <br/>
             <strong><i>ICCV 2021</i></strong>
           </li>
-
+          <p>(*) denotes equal contribution</p>
         </ul>
         </div>
       </div>
