@@ -1,5 +1,5 @@
 a {
-  color: #8aa48c;
+  color: #6F8571;
   text-decoration: none;
 }
 
@@ -14,18 +14,43 @@ a:hover{
 
 }
 
+.representative {
+  background-color: #ffedcb;
+  border-radius: 12px;
+}
 
 .profile-pic {
   margin-right: 2.5em;
 }
 
 li {
-  margin: -0.75em;
+  margin: 0 0 0 2em;
+}
+
+.news {
+  margin: 0;
+  font-size: 14px;
+}
+
+.highlight {
+  font-size: small;
+  margin: -1em 0 -0.5em 0;
+}
+
+.research {
+  list-style-type: none;
+  margin: 0.25em 0;/* Remove margins */
+  padding: 0.25em 1em;
 }
 
 @media only screen and (max-width: 600px) {
   .hero {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
+
+
+
+

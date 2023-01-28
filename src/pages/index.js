@@ -66,29 +66,45 @@ const LandingPage = ({ data, location }) => {
       </div>
       <div>
         <h3> research </h3>
+        <p className="highlight">* denotes equal contribution. Highlighted papers are most representative of my current research interests.</p>
         <div>
         <ul>
-          <li><a href="https://arxiv.org/abs/2208.02796" target="_blank">Understanding Teenage Perceptions and Configurations of Privacy on Instagram</a> <br/>
-            <strong>Dora Zhao</strong>, Mikako Inaba, Andrés Monroy-Hernández<br/>
-            <strong><i>CSCW 2022</i></strong>
+          <li className="research"><a href="https://arxiv.org/abs/2301.02560" target="_blank">Beyond Web-Scraping: Crowd-sourcing a Geographically Diverse Image Dataset</a> <br/>
+            Vikram V. Ramaswamy, Sing Yu Lin, <strong>Dora Zhao</strong>, Aaron B. Adcock, Laurens van der Maaten, Deepti Ghadiyaram, Olga Russakovsky<br/>
+            <strong><i>Under Submission</i></strong>
           </li> 
-          <li><a href="https://arxiv.org/abs/2206.09191" target="_blank">Gender Artifacts in Visual Datasets</a> <br/>
-            Nicole Meister*, <strong>Dora Zhao*</strong>, Angelina Wang, Vikram V. Ramaswamy, Ruth Fong, Olga Russakovsky <br/>
-            <strong><i>arXiv 2022</i></strong>
-          </li> 
-          <li><a href="https://dl.acm.org/doi/abs/10.1145/3491101.3516382" target="_blank">Anti-Racist HCI: Notes on an Emerging Critical Technical Practice</a> <br/>
+          <div className="representative">
+            <li className="research"><a href="https://arxiv.org/abs/2210.11924" target="_blank">Men Also Do Laundry: Multi-Attribute Bias Amplification</a> <br/>
+              <strong>Dora Zhao</strong>, Jerone Andrews, Alice Xiang<br/>
+              <strong><i>Trustworthy and Responsible Machine Learning Workshop @ NeurIPS 2022</i></strong>
+            </li> 
+          </div>
+          <div className="representative">
+            <li className="research"><a href="https://arxiv.org/abs/2208.02796" target="_blank">Understanding Teenage Perceptions and Configurations of Privacy on Instagram</a> <br/>
+              <strong>Dora Zhao</strong>, Mikako Inaba, Andrés Monroy-Hernández<br/>
+              <strong><i>CSCW 2022</i></strong>
+            </li> 
+          </div>
+          <div className="representative">
+            <li className="research"><a href="https://arxiv.org/abs/2206.09191" target="_blank">Gender Artifacts in Visual Datasets</a> <br/>
+              Nicole Meister*, <strong>Dora Zhao*</strong>, Angelina Wang, Vikram V. Ramaswamy, Ruth Fong, Olga Russakovsky <br/>
+              <strong><i>Responsible Computer Vision Workshop @ ECCV 2022</i></strong>
+            </li> 
+          </div>
+          <li className="research"><a href="https://dl.acm.org/doi/abs/10.1145/3491101.3516382" target="_blank">Anti-Racist HCI: Notes on an Emerging Critical Technical Practice</a> <br/>
             One of nineteen authors <br/>
             <strong><i>alt.CHI 2022</i></strong>
           </li>     
-          <li><a href="https://arxiv.org/abs/2004.07999" target="_blank">REVISE: A Tool for Measuring and Mitigating Bias in Visual Datasets</a> <br/>
+          <li className="research"><a href="https://arxiv.org/abs/2004.07999" target="_blank">REVISE: A Tool for Measuring and Mitigating Bias in Visual Datasets</a> <br/>
             Angelina Wang, Alexander Liu, Ryan Zhang, Anat Kleiman, Leslie Kim, <strong>Dora Zhao</strong>, Iroha Shirai, Arvind Narayanan, Olga Russakovsky <br/>
             <strong><i>IJCV 2022</i></strong>
           </li>
-          <li><a href="https://arxiv.org/abs/2106.08503" target="_blank">Understanding and Evaluating Racial Biases in Image Captioning</a> <br/>
+          <div className="representative">
+          <li className="research"><a href="https://arxiv.org/abs/2106.08503" target="_blank">Understanding and Evaluating Racial Biases in Image Captioning</a> <br/>
             <strong>Dora Zhao</strong>, Angelina Wang, Olga Russakovsky <br/>
             <strong><i>ICCV 2021</i></strong>
           </li>
-          <p>(*) denotes equal contribution</p>
+          </div>
         </ul>
         </div>
       </div>
@@ -96,10 +112,10 @@ const LandingPage = ({ data, location }) => {
         <h3> teaching </h3>
         <div>
           <ul>
-            <li> COS 333: Advanced Programming Techniques, Spring 2022 </li>
-            <li> COS 333: Advanced Programming Techniques, Fall 2021 </li>
-            <li> COS IW 07: Computer Vision for Social Good, Spring 2021 </li>
-            <li> COS IW 08: Fairness of Visual Recognition, Spring 2021 </li>
+            <li className="news"> COS 333: Advanced Programming Techniques, Spring 2022 </li>
+            <li className="news"> COS 333: Advanced Programming Techniques, Fall 2021 </li>
+            <li className="news"> COS IW 07: Computer Vision for Social Good, Spring 2021 </li>
+            <li className="news"> COS IW 08: Fairness of Visual Recognition, Spring 2021 </li>
           </ul>
         </div>
 

@@ -104,6 +104,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
+            title: "test"
           },
         ],
       },
