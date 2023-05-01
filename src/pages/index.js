@@ -27,7 +27,7 @@ const LandingPage = ({ data, location }) => {
           <div>
             <h2> Hi 👋, I'm Dora Zhao. </h2>
             <body>
-              I am an AI Engineer at Sony AI on the AI Ethics team. I am interested in <strong>machine learning fairness</strong> and <strong>human-computer interaction</strong>. 
+              I am an AI Engineer at Sony AI on the Ethics flagship project. I am interested in <strong>machine learning fairness</strong> and <strong>human-computer interaction</strong>. 
               Previously, I worked in the <a href="http://visualai.princeton.edu/" target="_blank">
               Princeton Visual AI Lab</a>, advised by <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Professor Olga Russakovsky</a>.
             </body>
@@ -53,12 +53,16 @@ const LandingPage = ({ data, location }) => {
       <div>
         <h3> news </h3>
         <ul>
+          <li className="news"><strong>[05/23]</strong> One paper accepted to ICML 2023: <a href="https://arxiv.org/abs/2210.11924" target="_blank"> Men Also Do Laundry: Multi-Attribute Bias Amplification </a></li>
+          <li className="news"><strong>[04/23]</strong> One paper accepted to FAccT 2023: Augmented Datasheets for Speech Datasets</li>
+          <hr/>
           <li className="news"><strong>[07/22]</strong> One paper accepted to CSCW 2022: <a href="https://arxiv.org/abs/2208.02796" target="_blank"> Understanding Teenage Perceptions and Configurations of Privacy on Instagram </a></li>
-          <li className="news"><strong>[07/22]</strong> Started at Sony AI as an AI Engineer!</li>
+          <li className="news"><strong>[07/22]</strong> Started at Sony AI as an AI Engineer on the Ethics flagship project</li>
           <li className="news"><strong>[06/22]</strong> Attended CVPR 2022 and presented a poster at the WiCV workshop.</li>
           <li className="news"><strong>[06/22]</strong> New preprint available: <a href="https://arxiv.org/abs/2206.09191" target="_blank"> Gender Artifacts in Visual Datasets</a>. </li>
           <li className="news"><strong>[05/22]</strong> Finished my Master's program at Princeton University!</li>
           <li className="news"><strong>[05/22]</strong> Defended my thesis on teenage perceptions of privacy on visual social media platforms, advised by Professor Andrés Monroy-Hernández.</li>
+          <hr/>
           <li className="news"><strong>[08/21]</strong> Started my Master's program at Princeton University!</li>
           <li className="news"><strong>[08/21]</strong> Finished my summer internship at Sony AI on the AI Ethics team, where I worked on generating synthetic data with GANs for reducing bias in object classification tasks.</li>
           <li className="news"><strong>[07/21]</strong> One paper accepted to ICCV 2021: <a href="https://arxiv.org/abs/2106.08503" target="_blank"> Understanding and Evaluating Racial Biases in Image Captioning </a></li>
@@ -69,16 +73,16 @@ const LandingPage = ({ data, location }) => {
         <p className="highlight">* denotes equal contribution. Highlighted papers are most representative of my current research interests.</p>
         <div>
         <ul>
+          <div className="representative">
+            <li className="research"><a href="https://arxiv.org/abs/2210.11924" target="_blank">Men Also Do Laundry: Multi-Attribute Bias Amplification</a> <br/>
+              <strong>Dora Zhao</strong>, Jerone Andrews, Alice Xiang<br/>
+              <strong><i>ICML 2023</i></strong>
+            </li> 
+          </div>
           <li className="research"><a href="https://arxiv.org/abs/2301.02560" target="_blank">Beyond Web-Scraping: Crowd-sourcing a Geographically Diverse Image Dataset</a> <br/>
             Vikram V. Ramaswamy, Sing Yu Lin, <strong>Dora Zhao</strong>, Aaron B. Adcock, Laurens van der Maaten, Deepti Ghadiyaram, Olga Russakovsky<br/>
             <strong><i>Under Submission</i></strong>
           </li> 
-          <div className="representative">
-            <li className="research"><a href="https://arxiv.org/abs/2210.11924" target="_blank">Men Also Do Laundry: Multi-Attribute Bias Amplification</a> <br/>
-              <strong>Dora Zhao</strong>, Jerone Andrews, Alice Xiang<br/>
-              <strong><i>Trustworthy and Responsible Machine Learning Workshop @ NeurIPS 2022</i></strong>
-            </li> 
-          </div>
           <div className="representative">
             <li className="research"><a href="https://arxiv.org/abs/2208.02796" target="_blank">Understanding Teenage Perceptions and Configurations of Privacy on Instagram</a> <br/>
               <strong>Dora Zhao</strong>, Mikako Inaba, Andrés Monroy-Hernández<br/>
