@@ -47,7 +47,7 @@ const LandingPage = ({ data, location }) => {
           <a href="mailto:dorazhao99@gmail.com">[email]</a>
           &emsp; <a href="https://github.com/dorazhao99/" target="_blank">[github]</a>
           &emsp; <a href="https://twitter.com/dorazhao9" target="_blank">[twitter]</a>
-          &emsp; <a href="https://www.linkedin.com/in/dorothy-z/" target="_blank">[linkedin]</a>
+          &emsp; <a href="cv.pdf">[cv]</a>
         </div>
       </div>
       <div>
