@@ -53,13 +53,13 @@ const LandingPage = ({ data, location }) => {
       <div>
         <h3> news </h3>
         <ul>
+          <li className="news"><strong>[07/23]</strong> One paper accepted to ICCV 2023: <a href="https://arxiv.org/abs/2206.09191" target="_blank"> Gender Artifacts in Visual Datasets</a></li>
           <li className="news"><strong>[05/23]</strong> One paper accepted to ICML 2023: <a href="https://arxiv.org/abs/2210.11924" target="_blank"> Men Also Do Laundry: Multi-Attribute Bias Amplification </a></li>
           <li className="news"><strong>[04/23]</strong> One paper accepted to FAccT 2023: Augmented Datasheets for Speech Datasets</li>
           <hr/>
           <li className="news"><strong>[07/22]</strong> One paper accepted to CSCW 2022: <a href="https://arxiv.org/abs/2208.02796" target="_blank"> Understanding Teenage Perceptions and Configurations of Privacy on Instagram </a></li>
           <li className="news"><strong>[07/22]</strong> Started at Sony AI as an AI Engineer on the Ethics flagship project</li>
           <li className="news"><strong>[06/22]</strong> Attended CVPR 2022 and presented a poster at the WiCV workshop.</li>
-          <li className="news"><strong>[06/22]</strong> New preprint available: <a href="https://arxiv.org/abs/2206.09191" target="_blank"> Gender Artifacts in Visual Datasets</a>. </li>
           <li className="news"><strong>[05/22]</strong> Finished my Master's program at Princeton University!</li>
           <li className="news"><strong>[05/22]</strong> Defended my thesis on teenage perceptions of privacy on visual social media platforms, advised by Professor Andrés Monroy-Hernández.</li>
           <hr/>
@@ -74,11 +74,25 @@ const LandingPage = ({ data, location }) => {
         <div>
         <ul>
           <div className="representative">
+            <li className="research"><a href="https://arxiv.org/abs/2206.09191" target="_blank">Gender Artifacts in Visual Datasets</a><br/>
+              Nicole Meister*, <strong>Dora Zhao*</strong>, Angelina Wang, Vikram V. Ramaswamy, Ruth Fong, Olga Russakovsky <br/>
+              <strong><i>ICCV 2023</i></strong>
+            </li> 
+          </div>
+          <div className="representative">
             <li className="research"><a href="https://arxiv.org/abs/2210.11924" target="_blank">Men Also Do Laundry: Multi-Attribute Bias Amplification</a> <br/>
               <strong>Dora Zhao</strong>, Jerone Andrews, Alice Xiang<br/>
               <strong><i>ICML 2023</i></strong>
             </li> 
           </div>
+          <li className="research"><a href="https://arxiv.org/abs/2302.03629" target="_blank">Principlism Guided Data Curation</a> <br/>
+            Jerone Andrews, <strong>Dora Zhao*</strong>, William Thong*, Apostolos Modas*, Orestis Papakyriakopoulos*, Shruti Nagpal* Alice Xiang<br/>
+            <strong><i>Data-Centric Machine Learning Research @ ICML 2023</i></strong>
+          </li> 
+          <li className="research"><a href="https://dl.acm.org/doi/abs/10.1145/3593013.3594049" target="_blank">Augmented Datasheets for Speech Datasets and Ethical Decision-Making</a> <br/>
+            Orestis Papakyriakopoulos, Anna Seo Gyeong Choi, Jerone Andrews, Rebecca Bourke, William Thong, <strong>Dora Zhao</strong>, Alice Xiang, Allison Koenecke<br/>
+            <strong><i>FAccT 2023</i></strong>
+          </li> 
           <li className="research"><a href="https://arxiv.org/abs/2301.02560" target="_blank">Beyond Web-Scraping: Crowd-sourcing a Geographically Diverse Image Dataset</a> <br/>
             Vikram V. Ramaswamy, Sing Yu Lin, <strong>Dora Zhao</strong>, Aaron B. Adcock, Laurens van der Maaten, Deepti Ghadiyaram, Olga Russakovsky<br/>
             <strong><i>Under Submission</i></strong>
@@ -87,12 +101,6 @@ const LandingPage = ({ data, location }) => {
             <li className="research"><a href="https://arxiv.org/abs/2208.02796" target="_blank">Understanding Teenage Perceptions and Configurations of Privacy on Instagram</a> <br/>
               <strong>Dora Zhao</strong>, Mikako Inaba, Andrés Monroy-Hernández<br/>
               <strong><i>CSCW 2022</i></strong>
-            </li> 
-          </div>
-          <div className="representative">
-            <li className="research"><a href="https://arxiv.org/abs/2206.09191" target="_blank">Gender Artifacts in Visual Datasets</a> <br/>
-              Nicole Meister*, <strong>Dora Zhao*</strong>, Angelina Wang, Vikram V. Ramaswamy, Ruth Fong, Olga Russakovsky <br/>
-              <strong><i>Responsible Computer Vision Workshop @ ECCV 2022</i></strong>
             </li> 
           </div>
           <li className="research"><a href="https://dl.acm.org/doi/abs/10.1145/3491101.3516382" target="_blank">Anti-Racist HCI: Notes on an Emerging Critical Technical Practice</a> <br/>
