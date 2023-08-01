@@ -53,6 +53,7 @@ const LandingPage = ({ data, location }) => {
       <div>
         <h3> news </h3>
         <ul>
+          <li className="news"><strong>[07/23]</strong> Attended ICML 2023 and presented a poster at the main conference as well as the DMLR 2023 workshop</li>
           <li className="news"><strong>[07/23]</strong> One paper accepted to ICCV 2023: <a href="https://arxiv.org/abs/2206.09191" target="_blank"> Gender Artifacts in Visual Datasets</a></li>
           <li className="news"><strong>[05/23]</strong> One paper accepted to ICML 2023: <a href="https://arxiv.org/abs/2210.11924" target="_blank"> Men Also Do Laundry: Multi-Attribute Bias Amplification </a></li>
           <li className="news"><strong>[04/23]</strong> One paper accepted to FAccT 2023: Augmented Datasheets for Speech Datasets</li>
