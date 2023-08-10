@@ -27,14 +27,14 @@ const LandingPage = ({ data, location }) => {
           <div>
             <h2> Hi 👋, I'm Dora Zhao. </h2>
             <body>
-              I am an AI Engineer at Sony AI on the Ethics flagship project. I am interested in <strong>machine learning fairness</strong> and <strong>human-computer interaction</strong>. 
-              Previously, I worked in the <a href="http://visualai.princeton.edu/" target="_blank">
+              I am incoming CS PhD student at Stanford University. aI am interested in <strong>machine learning fairness</strong> and <strong>human-computer interaction</strong>. 
+              Previously, I was an AI Engineer at Sony AI on the Ethics flagship project. I also worked in the <a href="http://visualai.princeton.edu/" target="_blank">
               Princeton Visual AI Lab</a>, advised by <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Professor Olga Russakovsky</a>.
             </body>
           </div>
         </div>
         <body>
-          Previously, I received my undergraduate degree from Princeton University, where I majored
+          I received my undergraduate degree from Princeton University, where I majored
           in computer science with minors in Asian American Studies and statistics + machine learning.
           I also received my Master of Science in Engineering from Princeton as well where I worked with <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Professor Olga Russakovsky</a> and <a href="https://www.andresmh.com/" target="_blank">Professor Andrés Monroy-Hernández</a>. 
         </body>
