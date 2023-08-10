@@ -27,7 +27,7 @@ const LandingPage = ({ data, location }) => {
           <div>
             <h2> Hi 👋, I'm Dora Zhao. </h2>
             <body>
-              I am incoming CS PhD student at Stanford University. aI am interested in <strong>machine learning fairness</strong> and <strong>human-computer interaction</strong>. 
+              I am an incoming CS PhD student at Stanford University interested in <strong>machine learning fairness</strong> and <strong>human-computer interaction</strong>. 
               Previously, I was an AI Engineer at Sony AI on the Ethics flagship project. I also worked in the <a href="http://visualai.princeton.edu/" target="_blank">
               Princeton Visual AI Lab</a>, advised by <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Professor Olga Russakovsky</a>.
             </body>
