@@ -27,7 +27,7 @@ const LandingPage = ({ data, location }) => {
           <div>
             <h2> Hi 👋, I'm Dora Zhao. </h2>
             <body>
-              I am an incoming CS PhD student at Stanford University interested in <strong>machine learning fairness</strong> and <strong>human-computer interaction</strong>. 
+              I am a CS PhD student at Stanford University interested in <strong>machine learning fairness</strong> and <strong>human-computer interaction</strong>. 
               Previously, I was an AI Engineer at Sony AI on the Ethics flagship project. I also worked in the <a href="http://visualai.princeton.edu/" target="_blank">
               Princeton Visual AI Lab</a>, advised by <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Professor Olga Russakovsky</a>.
             </body>
@@ -53,27 +53,26 @@ const LandingPage = ({ data, location }) => {
       <div>
         <h3> news </h3>
         <ul>
+          <li classname="news"><strong>[10/23]</strong> Gave a talk at understanding biases in multimodal systems at the <a href="https://muws-workshop.github.io/">MUWS</a> workshop @ CIKM 2023.</li>
+          <li classname="news"><strong>[10/23]</strong> Two papers accepted to NeurIPS D&B 2023.</li>
+          <li classname="news"><strong>[09/23]</strong> Started my PhD at Stanford University</li>
           <li className="news"><strong>[07/23]</strong> Attended ICML 2023 and presented a poster at the main conference as well as the DMLR 2023 workshop</li>
           <li className="news"><strong>[07/23]</strong> One paper accepted to ICCV 2023: <a href="https://arxiv.org/abs/2206.09191" target="_blank"> Gender Artifacts in Visual Datasets</a></li>
-          <li className="news"><strong>[05/23]</strong> One paper accepted to ICML 2023: <a href="https://arxiv.org/abs/2210.11924" target="_blank"> Men Also Do Laundry: Multi-Attribute Bias Amplification </a></li>
-          <li className="news"><strong>[04/23]</strong> One paper accepted to FAccT 2023: Augmented Datasheets for Speech Datasets</li>
-          <hr/>
-          <li className="news"><strong>[07/22]</strong> One paper accepted to CSCW 2022: <a href="https://arxiv.org/abs/2208.02796" target="_blank"> Understanding Teenage Perceptions and Configurations of Privacy on Instagram </a></li>
-          <li className="news"><strong>[07/22]</strong> Started at Sony AI as an AI Engineer on the Ethics flagship project</li>
-          <li className="news"><strong>[06/22]</strong> Attended CVPR 2022 and presented a poster at the WiCV workshop.</li>
-          <li className="news"><strong>[05/22]</strong> Finished my Master's program at Princeton University!</li>
-          <li className="news"><strong>[05/22]</strong> Defended my thesis on teenage perceptions of privacy on visual social media platforms, advised by Professor Andrés Monroy-Hernández.</li>
-          <hr/>
-          <li className="news"><strong>[08/21]</strong> Started my Master's program at Princeton University!</li>
-          <li className="news"><strong>[08/21]</strong> Finished my summer internship at Sony AI on the AI Ethics team, where I worked on generating synthetic data with GANs for reducing bias in object classification tasks.</li>
-          <li className="news"><strong>[07/21]</strong> One paper accepted to ICCV 2021: <a href="https://arxiv.org/abs/2106.08503" target="_blank"> Understanding and Evaluating Racial Biases in Image Captioning </a></li>
-        </ul>
+         </ul>
       </div>
       <div>
         <h3> research </h3>
         <p className="highlight">* denotes equal contribution. Highlighted papers are most representative of my current research interests.</p>
         <div>
         <ul>
+          <li className="research"><a href="https://arxiv.org/abs/2301.02560" target="_blank">Beyond Web-Scraping: Crowd-sourcing a Geographically Diverse Image Dataset</a> <br/>
+            Vikram V. Ramaswamy, Sing Yu Lin, <strong>Dora Zhao</strong>, Aaron B. Adcock, Laurens van der Maaten, Deepti Ghadiyaram, Olga Russakovsky<br/>
+            <strong><i>NeurIPS D&B 2023</i></strong>
+          </li> 
+          <li className="research"><a href="https://arxiv.org/abs/2302.03629" target="_blank">Principlism Guided Data Curation</a> <br/>
+            Jerone Andrews, <strong>Dora Zhao*</strong>, William Thong*, Apostolos Modas*, Orestis Papakyriakopoulos*, Shruti Nagpal* Alice Xiang<br/>
+            <strong><i>NeurIPS D&B 2023 (Oral presentation)</i></strong>
+          </li> 
           <div className="representative">
             <li className="research"><a href="https://arxiv.org/abs/2206.09191" target="_blank">Gender Artifacts in Visual Datasets</a><br/>
               Nicole Meister*, <strong>Dora Zhao*</strong>, Angelina Wang, Vikram V. Ramaswamy, Ruth Fong, Olga Russakovsky <br/>
@@ -86,17 +85,9 @@ const LandingPage = ({ data, location }) => {
               <strong><i>ICML 2023</i></strong>
             </li> 
           </div>
-          <li className="research"><a href="https://arxiv.org/abs/2302.03629" target="_blank">Principlism Guided Data Curation</a> <br/>
-            Jerone Andrews, <strong>Dora Zhao*</strong>, William Thong*, Apostolos Modas*, Orestis Papakyriakopoulos*, Shruti Nagpal* Alice Xiang<br/>
-            <strong><i>Data-Centric Machine Learning Research @ ICML 2023</i></strong>
-          </li> 
           <li className="research"><a href="https://dl.acm.org/doi/abs/10.1145/3593013.3594049" target="_blank">Augmented Datasheets for Speech Datasets and Ethical Decision-Making</a> <br/>
             Orestis Papakyriakopoulos, Anna Seo Gyeong Choi, Jerone Andrews, Rebecca Bourke, William Thong, <strong>Dora Zhao</strong>, Alice Xiang, Allison Koenecke<br/>
             <strong><i>FAccT 2023</i></strong>
-          </li> 
-          <li className="research"><a href="https://arxiv.org/abs/2301.02560" target="_blank">Beyond Web-Scraping: Crowd-sourcing a Geographically Diverse Image Dataset</a> <br/>
-            Vikram V. Ramaswamy, Sing Yu Lin, <strong>Dora Zhao</strong>, Aaron B. Adcock, Laurens van der Maaten, Deepti Ghadiyaram, Olga Russakovsky<br/>
-            <strong><i>Under Submission</i></strong>
           </li> 
           <div className="representative">
             <li className="research"><a href="https://arxiv.org/abs/2208.02796" target="_blank">Understanding Teenage Perceptions and Configurations of Privacy on Instagram</a> <br/>
