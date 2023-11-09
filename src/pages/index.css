@@ -10,7 +10,7 @@ a:hover{
 .hero {
   display: flex;
   margin-bottom: 2em;
-  align-items: flex-end;
+  align-items: center;
 
 }
 
@@ -41,6 +41,21 @@ li {
   list-style-type: none;
   margin: 0.25em 0;/* Remove margins */
   padding: 0.25em 1em;
+}
+.navbar {
+  margin: 2em 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 3em;
+}
+
+.selected {
+  text-decoration: wavy underline;
+}
+
+.selected:hover {
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 600px) {
