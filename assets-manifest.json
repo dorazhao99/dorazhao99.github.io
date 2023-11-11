@@ -18,13 +18,15 @@
   "component---src-pages-404-js.js": "component---src-pages-404-js-27981ca7dd461cb4280e.js",
   "component---src-pages-blog-js-c50935a37ad1cc70dad9.js.map": "component---src-pages-blog-js-c50935a37ad1cc70dad9.js.map",
   "component---src-pages-blog-js.js": "component---src-pages-blog-js-c50935a37ad1cc70dad9.js",
+  "component---src-pages-index-js-024fe7019ef7c103bca4.js.map": "component---src-pages-index-js-024fe7019ef7c103bca4.js.map",
   "component---src-pages-index-js-67a5db02f3434790d846.js.map": "component---src-pages-index-js-67a5db02f3434790d846.js.map",
   "component---src-pages-index-js-9cacbf095d3ecb0c376f.js.map": "component---src-pages-index-js-9cacbf095d3ecb0c376f.js.map",
   "component---src-pages-index-js-ac9c7076a45ed97c79da.js.map": "component---src-pages-index-js-ac9c7076a45ed97c79da.js.map",
   "component---src-pages-index-js-e5652bcdaf4177f0d582.js.map": "component---src-pages-index-js-e5652bcdaf4177f0d582.js.map",
-  "component---src-pages-index-js.js": "component---src-pages-index-js-ac9c7076a45ed97c79da.js",
+  "component---src-pages-index-js.js": "component---src-pages-index-js-024fe7019ef7c103bca4.js",
   "component---src-pages-research-js-b835dc65161a3e8e9071.js.map": "component---src-pages-research-js-b835dc65161a3e8e9071.js.map",
-  "component---src-pages-research-js.js": "component---src-pages-research-js-b835dc65161a3e8e9071.js",
+  "component---src-pages-research-js-fd9e515f04704f8ece70.js.map": "component---src-pages-research-js-fd9e515f04704f8ece70.js.map",
+  "component---src-pages-research-js.js": "component---src-pages-research-js-fd9e515f04704f8ece70.js",
   "component---src-pages-using-typescript-tsx-f72656945a5506048255.js.map": "component---src-pages-using-typescript-tsx-f72656945a5506048255.js.map",
   "component---src-pages-using-typescript-tsx.js": "component---src-pages-using-typescript-tsx-f72656945a5506048255.js",
   "component---src-templates-blog-post-js-4bf684ae57b845febbb0.js.map": "component---src-templates-blog-post-js-4bf684ae57b845febbb0.js.map",
@@ -89,8 +91,9 @@
   "styles.css": "styles.e8f381d578df4dea459c.css",
   "webpack-runtime-267a2708ff6d794b4e84.js.map": "webpack-runtime-267a2708ff6d794b4e84.js.map",
   "webpack-runtime-5cc2b493a319dd6342f2.js.map": "webpack-runtime-5cc2b493a319dd6342f2.js.map",
+  "webpack-runtime-745950ba5f337c96ab24.js.map": "webpack-runtime-745950ba5f337c96ab24.js.map",
   "webpack-runtime-daae70d725e27fdede66.js.map": "webpack-runtime-daae70d725e27fdede66.js.map",
   "webpack-runtime-dccc780104883e8f7542.js.map": "webpack-runtime-dccc780104883e8f7542.js.map",
   "webpack-runtime-fcdf56bb40de0121a363.js.map": "webpack-runtime-fcdf56bb40de0121a363.js.map",
-  "webpack-runtime.js": "webpack-runtime-5cc2b493a319dd6342f2.js"
+  "webpack-runtime.js": "webpack-runtime-745950ba5f337c96ab24.js"
 }
