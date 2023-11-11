@@ -14,7 +14,7 @@ const ResearchPage = ({ data, location }) => {
         <div className="navbar">
           <a href='/'> home </a>
           <a className="selected" href="/research">research</a>
-          <a href="cv.pdf">cv</a>
+          <a href="/cv.pdf">cv</a>
         </div>
         <h3> research </h3>
         <p className="highlight">* denotes equal contribution. Highlighted papers are most representative of my current research interests.</p>

@@ -14,7 +14,7 @@ const LandingPage = ({ data, location }) => {
         <div className="navbar">
           <a className="selected" href='/'> home </a>
           <a href="/research">research</a>
-          <a href="cv.pdf">cv</a>
+          <a href="/cv.pdf">cv</a>
         </div>
         <div className="hero">
           <div className="profile-pic">
