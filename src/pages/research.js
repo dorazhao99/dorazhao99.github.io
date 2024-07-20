@@ -20,13 +20,18 @@ const ResearchPage = ({ data, location }) => {
         <p className="highlight">* denotes equal contribution. Highlighted papers are most representative of my current research interests.</p>
         <div>
         <ul>
+          <li className="research"><a href="https://arxiv.org/abs/2407.08188" target="_blank"></a>Position: Measure Dataset Diversity, Don't Just Claim It
+<br/>
+            <strong>Dora Zhao</strong>, Jerone T.A. Andrews, Orestis Papakyriakopoulos, Alice Xiang<br/>
+            <strong><i>ICML 2024 (Oral)</i></strong>
+          </li> 
           <li className="research"><a href="https://arxiv.org/abs/2301.02560" target="_blank">Beyond Web-Scraping: Crowd-sourcing a Geographically Diverse Image Dataset</a> <br/>
             Vikram V. Ramaswamy, Sing Yu Lin, <strong>Dora Zhao</strong>, Aaron B. Adcock, Laurens van der Maaten, Deepti Ghadiyaram, Olga Russakovsky<br/>
             <strong><i>NeurIPS D&B 2023</i></strong>
           </li> 
           <li className="research"><a href="https://arxiv.org/abs/2302.03629" target="_blank">Principlism Guided Data Curation</a> <br/>
             Jerone Andrews, <strong>Dora Zhao*</strong>, William Thong*, Apostolos Modas*, Orestis Papakyriakopoulos*, Shruti Nagpal* Alice Xiang<br/>
-            <strong><i>NeurIPS D&B 2023 (Oral presentation)</i></strong>
+            <strong><i>NeurIPS D&B 2023 (Oral)</i></strong>
           </li> 
           <div className="representative">
             <li className="research"><a href="https://arxiv.org/abs/2206.09191" target="_blank">Gender Artifacts in Visual Datasets</a><br/>
