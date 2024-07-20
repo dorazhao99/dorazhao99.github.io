@@ -32,16 +32,19 @@ const LandingPage = ({ data, location }) => {
           <div>
             <h2> Hi 👋, I'm Dora Zhao. </h2>
             <body>
-              I am a CS PhD student at Stanford University interested in <strong>machine learning fairness</strong> and <strong>human-computer interaction</strong>. 
+              I am a first-year CS PhD student at Stanford University, co-advised by Professors <a="https://hci.stanford.edu/msb/" target="_blank">Michael Bernstein</a> and  <a ="https://cs.stanford.edu/~diyiy/" target="_blank">Diyi Yang</a>.
               Previously, I was an AI Engineer at Sony AI on the Ethics flagship project. I also worked in the <a href="http://visualai.princeton.edu/" target="_blank">
               Princeton Visual AI Lab</a>, advised by <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Professor Olga Russakovsky</a>.
               <br/>
               <br/>
-              My pronouns are she/her. In my free time, I enjoy watching soccer (go Spurs!), working out, and baking.
+              My research lies at the intersection of <strong>human-computer interaction</strong> and <strong>machine learning fairness</strong>. I am broadly 
+              interested in designing technical methods that empower community control over AI systems and improving practices around machine learning dataset collection.
+              <br/><br/>
+              If you are an undergraduate student interested in similar research topics, please feel free to reach out. 
             </body>
             <br/>
             <div>
-              <a href="mailto:dorazhao99@gmail.com">[email]</a>
+              <a href="mailto:dorothyz@stanford.edu">[email]</a>
               &emsp; <a href="https://github.com/dorazhao99/" target="_blank">[github]</a>
               &emsp; <a href="https://twitter.com/dorazhao9" target="_blank">[twitter]</a>
             </div>
@@ -51,11 +54,9 @@ const LandingPage = ({ data, location }) => {
       <div>
         <h3> news </h3>
         <ul>
+          <li className="news"><strong>[07/24]</strong> Attended ICML 2024 and presenting our position paper on dataset diversity.</li>
           <li className="news"><strong>[10/23]</strong> Gave a talk at understanding biases in multimodal systems at the <a href="https://muws-workshop.github.io/">MUWS</a> workshop @ CIKM 2023.</li>
           <li className="news"><strong>[10/23]</strong> Two papers accepted to NeurIPS D&B 2023.</li>
-          <li className="news"><strong>[09/23]</strong> Started my PhD at Stanford University</li>
-          <li className="news"><strong>[07/23]</strong> Attended ICML 2023 and presented a poster at the main conference as well as the DMLR 2023 workshop</li>
-          <li className="news"><strong>[07/23]</strong> One paper accepted to ICCV 2023: <a href="https://arxiv.org/abs/2206.09191" target="_blank"> Gender Artifacts in Visual Datasets</a></li>
          </ul>
       </div>
 
