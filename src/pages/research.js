@@ -20,8 +20,8 @@ const ResearchPage = ({ data, location }) => {
         <p className="highlight">* denotes equal contribution. Highlighted papers are most representative of my current research interests.</p>
         <div>
         <ul>
-          <li className="research"><a href="https://arxiv.org/abs/2407.08188" target="_blank"></a>Position: Measure Dataset Diversity, Don't Just Claim It
-<br/>
+          <li className="research"><a href="https://arxiv.org/abs/2407.08188" target="_blank">Position: Measure Dataset Diversity, Don't Just Claim It</a>
+            <br/>
             <strong>Dora Zhao</strong>, Jerone T.A. Andrews, Orestis Papakyriakopoulos, Alice Xiang<br/>
             <strong><i>ICML 2024 (Oral)</i></strong>
           </li> 
