@@ -33,6 +33,7 @@ const LandingPage = ({ data, location }) => {
             <h2> Hi 👋, I'm Dora Zhao. </h2>
             <body>
               I am a second-year CS PhD student at Stanford University, co-advised by Professors <a href="https://hci.stanford.edu/msb/" target="_blank">Michael Bernstein</a> and  <a href="https://cs.stanford.edu/~diyiy/" target="_blank">Diyi Yang</a>.
+              My research is supported by the Brown Institute for Media Innovation and the Paul & Daisy Soros Fellowship for New Americans.
               Previously, I was an AI Engineer at Sony AI on the Ethics flagship project. I also worked in the <a href="http://visualai.princeton.edu/" target="_blank">
               Princeton Visual AI Lab</a>, advised by <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Professor Olga Russakovsky</a>.
               <br/>
@@ -51,14 +52,14 @@ const LandingPage = ({ data, location }) => {
           </div>
         </div>
       </div>
-      <div>
+      {/* <div>
         <h3> news </h3>
         <ul>
           <li className="news"><strong>[07/24]</strong> Attended ICML 2024 and presenting our position paper on dataset diversity.</li>
           <li className="news"><strong>[10/23]</strong> Gave a talk at understanding biases in multimodal systems at the <a href="https://muws-workshop.github.io/">MUWS</a> workshop @ CIKM 2023.</li>
           <li className="news"><strong>[10/23]</strong> Two papers accepted to NeurIPS D&B 2023.</li>
          </ul>
-      </div>
+      </div> */}
 
     </Layout>
   )

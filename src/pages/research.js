@@ -17,13 +17,23 @@ const ResearchPage = ({ data, location }) => {
           <a href="/cv.pdf">cv</a>
         </div>
         <h3> research </h3>
-        <p className="highlight">* denotes equal contribution. Highlighted papers are most representative of my current research interests.</p>
+        <p className="highlight">* denotes equal contribution. </p>
         <div>
         <ul>
+           <li className="research"><a href="https://arxiv.org/abs/2407.03623" target="_blank">Resampled Datasets Are Not Enough: Mitigating Societal Bias Beyond Single Attributes</a>
+            <br/>
+            Yusuke Hirota, Jerone T.A. Andrews, <strong>Dora Zhao</strong>, Orestis Papakyriakopoulos, Apostolos Modas, Yuta Nakashima, Alice Xiang<br/>
+            <strong><i>EMNLP 2024</i></strong>
+          </li> 
+          <li className="research"><a href="https://arxiv.org/abs/2406.06407" target="_blank">A Taxonomy of Challenges to Curating Fair Datasets</a>
+            <br/>
+            <strong>Dora Zhao*</strong>, Morgan Klaus Scheuerman*, Pooja Chitre, Jerone T.A. Andrews, Georgia Panagiotidou, Shawn Walker, Kathleen H Pine, Alice Xiang<br/>
+            <strong><i>NeurIPS D&B 2024 (Oral)</i></strong>
+          </li> 
           <li className="research"><a href="https://arxiv.org/abs/2407.08188" target="_blank">Position: Measure Dataset Diversity, Don't Just Claim It</a>
             <br/>
-            <strong>Dora Zhao</strong>, Jerone T.A. Andrews, Orestis Papakyriakopoulos, Alice Xiang<br/>
-            <strong><i>ICML 2024 (Oral)</i></strong>
+            <strong>Dora Zhao*</strong>, Jerone T.A. Andrews, Orestis Papakyriakopoulos, Alice Xiang<br/>
+            <strong><i>ICML 2024 (Best Paper)</i></strong>
           </li> 
           <li className="research"><a href="https://arxiv.org/abs/2301.02560" target="_blank">Beyond Web-Scraping: Crowd-sourcing a Geographically Diverse Image Dataset</a> <br/>
             Vikram V. Ramaswamy, Sing Yu Lin, <strong>Dora Zhao</strong>, Aaron B. Adcock, Laurens van der Maaten, Deepti Ghadiyaram, Olga Russakovsky<br/>

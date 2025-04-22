@@ -15,8 +15,9 @@ a:hover{
 }
 
 .representative {
-  background-color: #ffedcb;
-  border-radius: 12px;
+  background-color: white
+  /* background-color: #ffedcb;
+  border-radius: 12px; */
 }
 
 .profile-pic {
