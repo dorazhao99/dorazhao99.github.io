@@ -32,7 +32,7 @@ const LandingPage = ({ data, location }) => {
           <div>
             <h2> Hi 👋, I'm Dora Zhao. </h2>
             <body>
-              I am a second-year CS PhD student at Stanford University, co-advised by Professors <a href="https://hci.stanford.edu/msb/" target="_blank">Michael Bernstein</a> and  <a href="https://cs.stanford.edu/~diyiy/" target="_blank">Diyi Yang</a>.
+              I am a third-year CS PhD student at Stanford University, co-advised by Professors <a href="https://hci.stanford.edu/msb/" target="_blank">Michael Bernstein</a> and  <a href="https://cs.stanford.edu/~diyiy/" target="_blank">Diyi Yang</a>.
               My research is supported by the Brown Institute for Media Innovation and the Paul & Daisy Soros Fellowship for New Americans.
               Previously, I was an AI Engineer at Sony AI on the Ethics flagship project. I also worked in the <a href="http://visualai.princeton.edu/" target="_blank">
               Princeton Visual AI Lab</a>, advised by <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Professor Olga Russakovsky</a>.

@@ -13,18 +13,29 @@ const ResearchPage = ({ data, location }) => {
       <div>
         <div className="navbar">
           <a href='/'> home </a>
-          <a className="selected" href="/research">research</a>
+          <a className="selected" href="/research">selected publications</a>
           <a href="/cv.pdf">cv</a>
         </div>
         <h3> research </h3>
-        <p className="highlight">* denotes equal contribution. </p>
+        <div>
+          <p className="highlight">
+            <i>See <a href="https://scholar.google.com/citations?user=Iq8AdKQAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> for full list of publications.</i>
+            <br/>* denotes equal contribution. 
+          </p>
+        </div>
+        
         <div>
         <ul>
-           <li className="research"><a href="https://arxiv.org/abs/2407.03623" target="_blank">Resampled Datasets Are Not Enough: Mitigating Societal Bias Beyond Single Attributes</a>
+        <li className="research"><a href="https://dl.acm.org/doi/full/10.1145/3746059.3747711" target="_blank">Knoll: Creating a Knowledge Ecosystem for Large Language Models</a>
             <br/>
-            Yusuke Hirota, Jerone T.A. Andrews, <strong>Dora Zhao</strong>, Orestis Papakyriakopoulos, Apostolos Modas, Yuta Nakashima, Alice Xiang<br/>
-            <strong><i>EMNLP 2024</i></strong>
+            <strong>Dora Zhao</strong>, Diyi Yang, Michael S. Bernstein<br/>
+            <strong><i>UIST 2025</i></strong>
           </li> 
+          <li className="research"><a href="https://aclanthology.org/2025.findings-acl.70/" target="_blank">SPHERE: An Evaluation Card for Human-AI Systems</a>
+            <br/>
+            <strong>Dora Zhao*</strong>, Qianou Ma*, Xinran Zhao, Chenglei Si, Chenyang Yang, Ryan Louie, Ehud Reiter, Diyi Yang, Tongshuang Wu<br/>
+            <strong><i>ACL 2025 (Findings)</i></strong>
+          </li>           
           <li className="research"><a href="https://arxiv.org/abs/2406.06407" target="_blank">A Taxonomy of Challenges to Curating Fair Datasets</a>
             <br/>
             <strong>Dora Zhao*</strong>, Morgan Klaus Scheuerman*, Pooja Chitre, Jerone T.A. Andrews, Georgia Panagiotidou, Shawn Walker, Kathleen H Pine, Alice Xiang<br/>
@@ -35,11 +46,7 @@ const ResearchPage = ({ data, location }) => {
             <strong>Dora Zhao*</strong>, Jerone T.A. Andrews, Orestis Papakyriakopoulos, Alice Xiang<br/>
             <strong><i>ICML 2024 (Best Paper)</i></strong>
           </li> 
-          <li className="research"><a href="https://arxiv.org/abs/2301.02560" target="_blank">Beyond Web-Scraping: Crowd-sourcing a Geographically Diverse Image Dataset</a> <br/>
-            Vikram V. Ramaswamy, Sing Yu Lin, <strong>Dora Zhao</strong>, Aaron B. Adcock, Laurens van der Maaten, Deepti Ghadiyaram, Olga Russakovsky<br/>
-            <strong><i>NeurIPS D&B 2023</i></strong>
-          </li> 
-          <li className="research"><a href="https://arxiv.org/abs/2302.03629" target="_blank">Principlism Guided Data Curation</a> <br/>
+          <li className="research"><a href="https://arxiv.org/abs/2302.03629" target="_blank">Ethical Considerations for Responsible Data Curation</a> <br/>
             Jerone Andrews, <strong>Dora Zhao*</strong>, William Thong*, Apostolos Modas*, Orestis Papakyriakopoulos*, Shruti Nagpal* Alice Xiang<br/>
             <strong><i>NeurIPS D&B 2023 (Oral)</i></strong>
           </li> 
@@ -55,20 +62,6 @@ const ResearchPage = ({ data, location }) => {
               <strong><i>ICML 2023</i></strong>
             </li> 
           </div>
-          <li className="research"><a href="https://dl.acm.org/doi/abs/10.1145/3593013.3594049" target="_blank">Augmented Datasheets for Speech Datasets and Ethical Decision-Making</a> <br/>
-            Orestis Papakyriakopoulos, Anna Seo Gyeong Choi, Jerone Andrews, Rebecca Bourke, William Thong, <strong>Dora Zhao</strong>, Alice Xiang, Allison Koenecke<br/>
-            <strong><i>FAccT 2023</i></strong>
-          </li> 
-          <div className="representative">
-            <li className="research"><a href="https://arxiv.org/abs/2208.02796" target="_blank">Understanding Teenage Perceptions and Configurations of Privacy on Instagram</a> <br/>
-              <strong>Dora Zhao</strong>, Mikako Inaba, Andrés Monroy-Hernández<br/>
-              <strong><i>CSCW 2022</i></strong>
-            </li> 
-          </div>
-          <li className="research"><a href="https://dl.acm.org/doi/abs/10.1145/3491101.3516382" target="_blank">Anti-Racist HCI: Notes on an Emerging Critical Technical Practice</a> <br/>
-            One of nineteen authors <br/>
-            <strong><i>alt.CHI 2022</i></strong>
-          </li>     
           <li className="research"><a href="https://arxiv.org/abs/2004.07999" target="_blank">REVISE: A Tool for Measuring and Mitigating Bias in Visual Datasets</a> <br/>
             Angelina Wang, Alexander Liu, Ryan Zhang, Anat Kleiman, Leslie Kim, <strong>Dora Zhao</strong>, Iroha Shirai, Arvind Narayanan, Olga Russakovsky <br/>
             <strong><i>IJCV 2022</i></strong>
