@@ -52,14 +52,14 @@ const LandingPage = ({ data, location }) => {
           </div>
         </div>
       </div>
-      {/* <div>
+      <div>
         <h3> news </h3>
         <ul>
           <li className="news"><strong>[01/26]</strong> Started a part-time internship at Microsoft in the IDEAS group working on upskilling workers</li>
           <li className="news"><strong>[01/26]</strong> Three papers conditionally accepted at CHI 2026</li>
           <li className="news"><strong>[11/25]</strong> Helped organized a <a href="https://www.wired.com/story/the-biggest-ai-companies-met-to-find-a-better-path-for-chatbot-companions/" _target="blank">workshop on AI companionship</a> at Stanford </li>
          </ul>
-      </div> */}
+      </div>
 
     </Layout>
   )
