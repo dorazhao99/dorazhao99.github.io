@@ -38,10 +38,10 @@ const LandingPage = ({ data, location }) => {
               Princeton Visual AI Lab</a>, advised by <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Professor Olga Russakovsky</a>.
               <br/>
               <br/>
-              My research lies at the intersection of <strong>human-computer interaction</strong> and <strong>machine learning fairness</strong>. I am broadly 
-              interested in designing technical methods that empower community control over AI systems and improving practices around machine learning dataset collection.
+              My research lies at the intersection of <strong>human-computer interaction</strong> and <strong>responsible AI</strong>. I am broadly 
+              interested in measuring harms of emerging AI systems and creating new technical methods for creating AI technologies that prioritize long-term benefits to users, rather than optimizing for short-term gains like engagement.
               <br/><br/>
-              If you are an undergraduate student interested in similar research topics, please feel free to reach out. 
+              If you're an undergrad at Stanford interested in learning about research, feel free to reach out. I am happy to chat about opportunities here. I recommend checking out the CURIS program at Stanford or other summer REUs for those getting into research!
             </body>
             <br/>
             <div>
@@ -55,9 +55,9 @@ const LandingPage = ({ data, location }) => {
       {/* <div>
         <h3> news </h3>
         <ul>
-          <li className="news"><strong>[07/24]</strong> Attended ICML 2024 and presenting our position paper on dataset diversity.</li>
-          <li className="news"><strong>[10/23]</strong> Gave a talk at understanding biases in multimodal systems at the <a href="https://muws-workshop.github.io/">MUWS</a> workshop @ CIKM 2023.</li>
-          <li className="news"><strong>[10/23]</strong> Two papers accepted to NeurIPS D&B 2023.</li>
+          <li className="news"><strong>[01/26]</strong> Started a part-time internship at Microsoft in the IDEAS group working on upskilling workers</li>
+          <li className="news"><strong>[01/26]</strong> Three papers conditionally accepted at CHI 2026</li>
+          <li className="news"><strong>[11/25]</strong> Helped organized a <a href="https://www.wired.com/story/the-biggest-ai-companies-met-to-find-a-better-path-for-chatbot-companions/" _target="blank">workshop on AI companionship</a> at Stanford </li>
          </ul>
       </div> */}
 
