@@ -39,7 +39,7 @@ const LandingPage = ({ data, location }) => {
               <br/>
               <br/>
               My research lies at the intersection of <strong>human-computer interaction</strong> and <strong>responsible AI</strong>. I am broadly 
-              interested in how we design AI systems that prioritize long-term benefits to users through (1) <i>measuring</i> longitudinal effects of interacting with AI systems, and (2) creating new methods or interaction approaches that support deeper user understanding.
+              interested in how we design AI systems that prioritize long-term benefits to users through (1) <i>measuring</i> longitudinal effects of interacting with AI systems, and (2) <i>creating</i> new methods or interaction approaches that support deeper user understanding.
             </body>
             <br/>
             <div>
