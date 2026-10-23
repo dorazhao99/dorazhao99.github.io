@@ -17,9 +17,10 @@
   "component---src-pages-blog-js.js": "component---src-pages-blog-js-2f96cb41e7ff7ad8c59b.js",
   "component---src-pages-index-js-0f2ee402142e51683eba.js.map": "component---src-pages-index-js-0f2ee402142e51683eba.js.map",
   "component---src-pages-index-js-10854e8735a72203a149.js.map": "component---src-pages-index-js-10854e8735a72203a149.js.map",
+  "component---src-pages-index-js-1e3b6effc7c8995e51ff.js.map": "component---src-pages-index-js-1e3b6effc7c8995e51ff.js.map",
   "component---src-pages-index-js-767f15d1951bb62da563.js.map": "component---src-pages-index-js-767f15d1951bb62da563.js.map",
   "component---src-pages-index-js-c8b2242e47ce306b8214.js.map": "component---src-pages-index-js-c8b2242e47ce306b8214.js.map",
-  "component---src-pages-index-js.js": "component---src-pages-index-js-c8b2242e47ce306b8214.js",
+  "component---src-pages-index-js.js": "component---src-pages-index-js-1e3b6effc7c8995e51ff.js",
   "component---src-pages-research-js-b95a3c7a60b90f3d6546.js.map": "component---src-pages-research-js-b95a3c7a60b90f3d6546.js.map",
   "component---src-pages-research-js-dffc92f29baddd3916f8.js.map": "component---src-pages-research-js-dffc92f29baddd3916f8.js.map",
   "component---src-pages-research-js.js": "component---src-pages-research-js-b95a3c7a60b90f3d6546.js",
@@ -85,7 +86,8 @@
   "styles.css": "styles.54d6eddd09f619d8b0b6.css",
   "webpack-runtime-23a117ed72dc338e18a2.js.map": "webpack-runtime-23a117ed72dc338e18a2.js.map",
   "webpack-runtime-48e1463406ccc39acc26.js.map": "webpack-runtime-48e1463406ccc39acc26.js.map",
+  "webpack-runtime-99c6a7410b40c2c90c5a.js.map": "webpack-runtime-99c6a7410b40c2c90c5a.js.map",
   "webpack-runtime-c02d5bea7a383234776b.js.map": "webpack-runtime-c02d5bea7a383234776b.js.map",
   "webpack-runtime-f3c6f678cda852b7e994.js.map": "webpack-runtime-f3c6f678cda852b7e994.js.map",
-  "webpack-runtime.js": "webpack-runtime-48e1463406ccc39acc26.js"
+  "webpack-runtime.js": "webpack-runtime-99c6a7410b40c2c90c5a.js"
 }
